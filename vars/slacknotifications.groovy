@@ -23,5 +23,5 @@ colorCode = '#FF0000'
 }
 
 // Calling the slackSend function to Send notifications. KK FUNDA
-slackSend (color: colorCode, message: summary,channel: all-devops)
+slackSend (color: colorCode, message: summary,channel: #all-devops)
 }
