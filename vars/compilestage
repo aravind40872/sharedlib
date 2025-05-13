@@ -1,0 +1,6 @@
+def call() {
+stage('COMPILE') {
+// 'steps' is invalid in shared libs - just run the command directly
+sh 'mvn clean compile'
+}
+}
